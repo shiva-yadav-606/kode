@@ -1,0 +1,55 @@
+##GUI
+------------
+zenity
+dialog
+notify-send "str"
+xdotool
+
+##sensor info
+-------
+tlp
+lm-sensors
+lm-sensors
+sensors
+xsensors
+
+##Terminal cmds
+---------------
+lolcat
+neofetch,pipes,bonsai,cava
+
+##files
+--------
+grep,head $n<index>,awk {'print $index'}
+find $HOME -iname "*xyz*"
+sudo find / -iname "*xyz*"
+df
+
+##HARDWARE
+-------------
+uname -m
+upower -d ,-i <info path> 
+acpi -b
+nvidia-smi
+
+##SOFTWARE
+-------------
+bluetoothctl
+playerctl
+speedtest
+ifconfig
+ip a
+adb 
+
+##SYSTEM
+---------
+systemctl
+ps
+acpi
+
+##USEFULL DIRECTORIES
+------------------
+/sys/class/power_supply/BAT0/
+/sys/class/hwmon
+/usr/share/sounds
+/var/sys/logs

@@ -1,0 +1,7 @@
+mongodb+srv://shivayadav:123456Vam@data@cluster0.lcf5coc.mongodb.net/
+
+postgresql://cluster0_owner:4jNqUfbPFVa6@ep-winter-tooth-a5o3bazz.us-east-2.aws.neon.tech/cluster0?sslmode=require
+
+
+
+

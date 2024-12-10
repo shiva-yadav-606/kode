@@ -1,0 +1,52 @@
+#SEARCH AND SAVE CMDS
+q                             		:to get out of open command
+ctrl + x 				:get of of nano
+cmd.exe /C [file name]			:to open as if xdg-open command
+rmdir/rm filename			:to delete directory/file
+shell:appsfolder			:show all installed apps
+\\wsl$ 					:(root folder)access
+NCPA.CPL				:to get to show wifi pass
+export PS1="\W \$ "			:hide username and system info
+#USED COMMANDS
+ctrl + alt + t: Opens a new terminal window.
+ctrl + l: Clears the terminal screen.
+ctrl + a: Move to the beginning of the line.
+ctrl + e: Move to the end of the line.
+#DIRECTORIES
+cd [directory]: Change the current directory to the specified one.
+#FILES
+cat>[file]: create file and write content;ctrl+d=save content and exit
+cat file1 file2>file: creates file and merges two files into int
+cp file1 file2: copy files 
+ls: List the files and directories in the current directory.
+ls*.filetype: dislays list of specified file type
+#ROOT COMMANDS
+sudo [command]: Run a command with elevated privileges.
+#MISCELLEANEOUS
+man [command]: Displays the manual page for a command.
+sudo -i: change user to root via terminal using passwd (exit--->back to user)
+cmd.exe /C [file name]	
+#git auth
+git config --global user.email "shivayadav.123.007@gmail.com"
+git config --global user.name "shiva"
+ssh-keygen -t rsa -b 4096 -C "shivayadav.123.007@gmail.com"
+eval "$(ssh-agent -s)"
+ssh-add -K ~/.ssh/id_rsa
+cat ~/.ssh/id_rsa.pub
+#git
+git remote add origin git@github.com:shiva-yadav-606/testrepo.git
+git branch -M main
+git push -u origin main
+#tmux cmds 
+tmux attach -t <sess number>  = attach session
+tmux rename-session  -t <session number> <new name> =rename session
+tmux new -s <name> = enter new session after naming
+tmux kill-session -t <name> == kill a session /same as exit
+#tmux navigation
+% >> verticala pane
+" >> horizontal pane
+c/ctrl+b 0,1 >>  new window/switch to windows
+d >> detach from session 
+, >> rename winodw
+
+
